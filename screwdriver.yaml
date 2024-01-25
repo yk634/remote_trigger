@@ -15,3 +15,6 @@ jobs:
 
   join4:
     requires: [ ~sd@12973:second ]
+
+  trigger1:
+    requires: [ sd@12973:first ]
