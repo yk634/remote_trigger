@@ -6,3 +6,9 @@ shared:
 jobs:
   first:
     requires: [ ~commit ]
+
+  second:
+    requires: [ sd@12974:join1, sd@12974:join2 ]
+
+  third:
+    requires: [ sd@12974:join3, sd@12974:join4 ]
