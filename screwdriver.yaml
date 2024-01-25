@@ -4,5 +4,14 @@ shared:
     - echo: echo hoge
 
 jobs:
-  first:
-    requires: [ ~commit ]
+  join1:
+    requires: [ ~sd@12973:first ]
+
+  join2:
+    requires: [ ~sd@12973:first ]
+
+  join3:
+    requires: [ ~sd@12973:second ]
+
+  join4:
+    requires: [ ~sd@12973:second ]
