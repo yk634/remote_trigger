@@ -12,3 +12,6 @@ jobs:
 
   third:
     requires: [ sd@12974:join3, sd@12974:join4 ]
+
+  fourth:
+    requires: [ ~sd@12974:join1, second ]
