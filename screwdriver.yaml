@@ -5,4 +5,4 @@ shared:
 
 jobs:
   trigger1:
-    requires: [ sd@12973:first, sd@12973:second ]
+    requires: [ sd@12973:first ]
