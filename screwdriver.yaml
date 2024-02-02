@@ -5,4 +5,12 @@ shared:
 
 jobs:
   trigger1:
-    requires: [ sd@12973:first ]
+    requires: [ ~sd@12973:first, test1, test2 ]
+
+  test1:
+    steps:
+      - echo: echo hoge
+
+  test2:
+    steps:
+      - echo: echo hoge
